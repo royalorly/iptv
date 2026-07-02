@@ -1,4 +1,5 @@
 import yaml
+import requests
 from pathlib import Path
 
 CONFIG_FILE = "config.yml"
