@@ -105,16 +105,14 @@ def main():
     all_channels = []
 
     for url in sources:
+        text = download_playlist(url)
 
-    text = download_playlist(url)
+        if text:
+            channels = parse_m3u(text)
 
-    if text:
+            print(f"{len(channels)} channels")
 
-        channels = parse_m3u(text)
-
-        print(f"{len(channels)} channels")
-
-        all_channels.extend(channels)
+            all_channels.extend(channels)
 
     print(f"Total channels: {len(all_channels)}")
 
@@ -122,6 +120,7 @@ def main():
 
     print("Playlist generated:")
     print(OUTPUT_FILE)
+
 
 if __name__ == "__main__":
     main()
