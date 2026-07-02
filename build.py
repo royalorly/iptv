@@ -162,18 +162,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-if all_channels:
-    print("Sample channel:")
-    print(all_channels[0])
-
-    print(f"After dedup: {len(all_channels)}")
-
-    build_playlist(all_channels)
-
-    print("Playlist generated:")
-    print(OUTPUT_FILE)
-
-
-if __name__ == "__main__":
-    main()
