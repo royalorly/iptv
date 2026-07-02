@@ -1,0 +1,5 @@
+#EXTM3U
+
+# 示例（请替换为你有权使用的公开 M3U 源中的频道）
+#EXTINF:-1,Example Channel
+https://example.com/stream.m3u8
