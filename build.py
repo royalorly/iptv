@@ -204,7 +204,7 @@ def normalize_channel_name(name):
 
     name = name.strip()
     
-    return channel_map.get(name, name)
+    return CHANNEL_MAP.get(name, name)
 
 
 
