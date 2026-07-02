@@ -148,6 +148,21 @@ def main():
 
     all_channels = deduplicate_channels(all_channels)
 
+    print(f"After dedup: {len(all_channels)}")
+
+    if all_channels:
+        print("Sample channel:")
+        print(all_channels[0])
+
+    build_playlist(all_channels)
+
+    print("Playlist generated:")
+    print(OUTPUT_FILE)
+
+
+if __name__ == "__main__":
+    main()
+
 if all_channels:
     print("Sample channel:")
     print(all_channels[0])
