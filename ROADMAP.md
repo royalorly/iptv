@@ -2,7 +2,7 @@
 
 ## ✅ v0.1 Core
 - [x] GitHub Actions
-- [x] 下载M3U
+- [ ] 下载M3U
 - [x] 去重
 - [x] 分类
 - [x] channel_map.yml
