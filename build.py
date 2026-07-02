@@ -104,7 +104,7 @@ def deduplicate_channels(channels):
 
     for channel in channels:
 
-        name = channel["name"].strip().lower()
+        name = normalize_channel_name(channel["name"]).lower()
 
         if name in seen:
             continue
@@ -169,6 +169,38 @@ def classify_channel(channel):
 
 
 
+def normalize_channel_name(name):
+
+    name = name.strip()
+
+    # 去掉常见后缀
+    remove_words = [
+        "HD",
+        "FHD",
+        "UHD",
+        "4K",
+        "8K",
+        "高清",
+        "超清",
+        "频道",
+        "直播",
+    ]
+
+    for word in remove_words:
+        name = name.replace(word, "")
+
+    # 去空格
+    name = name.replace(" ", "")
+
+    # CCTV 统一格式
+    m = re.match(r"CCTV[- ]?(\d+)", name, re.IGNORECASE)
+    if m:
+        return f"CCTV-{m.group(1)}"
+
+    return name.strip()
+
+
+
 def build_playlist(channels):
     OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -176,9 +208,17 @@ def build_playlist(channels):
 
     for channel in channels:
 
-        group = classify_channel(channel)
+    group = classify_channel(channel)
 
-        extinf = channel["extinf"]
+    extinf = channel["extinf"]
+    name = normalize_channel_name(channel["name"])
+
+    extinf = re.sub(
+        r',.*$',
+        f',{name}',
+        extinf
+    )
+        
 
         # 修改已有的 group-title
         if 'group-title="' in extinf:
