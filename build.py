@@ -147,7 +147,8 @@ def main():
     print(f"Before dedup: {len(all_channels)}")
 
     all_channels = deduplicate_channels(all_channels)
-    if all_channels:
+
+if all_channels:
     print("Sample channel:")
     print(all_channels[0])
 
