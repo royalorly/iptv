@@ -9,6 +9,12 @@ CHANNEL_MAP = {}
 SOURCES_FILE = "sources.txt"
 OUTPUT_DIR = Path("output")
 OUTPUT_FILE = OUTPUT_DIR / "tv.m3u"
+SORT_FILE = "sort.yml"
+SORT_CONFIG = {}
+
+def load_sort():
+    with open(SORT_FILE, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f) or {}
 
 def load_config():
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
@@ -109,7 +115,7 @@ def deduplicate_channels(channels):
 
     for channel in channels:
 
-        name = m = re.match(channel["name"]).lower()
+        name = normalize_channel_name(channel["name"]).lower()
 
         if name in seen:
             continue
@@ -199,11 +205,12 @@ def normalize_channel_name(name):
 
     # CCTV 统一格式
     m = re.match(r"(?i)cctv[- ]?(\d+)", name)
+
     if m:
         name = f"CCTV-{m.group(1)}"
 
     name = name.strip()
-    
+
     return CHANNEL_MAP.get(name, name)
 
 
@@ -252,6 +259,8 @@ def build_playlist(channels):
 
 
 def main():
+    global SORT_CONFIG
+    SORT_CONFIG = load_sort()
     global CHANNEL_MAP
     CHANNEL_MAP = load_channel_map()
     config = load_config()
