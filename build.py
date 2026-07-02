@@ -208,17 +208,17 @@ def build_playlist(channels):
 
     for channel in channels:
 
-    group = classify_channel(channel)
+        group = classify_channel(channel)
 
-    extinf = channel["extinf"]
-    name = normalize_channel_name(channel["name"])
+        extinf = channel["extinf"]
+        name = normalize_channel_name(channel["name"])
 
-    extinf = re.sub(
-        r',.*$',
-        f',{name}',
-        extinf
-    )
-        
+        # 修改频道名称
+        extinf = re.sub(
+            r',.*$',
+            f',{name}',
+            extinf
+        )
 
         # 修改已有的 group-title
         if 'group-title="' in extinf:
