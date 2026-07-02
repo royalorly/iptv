@@ -1,15 +1,14 @@
 # Changelog
 
-## v0.2.0
-
-- 新增 channel_map.yml
-- 新增 sort.yml
-- 新增频道标准化
-- 新增频道自动排序
-
 ## v0.1.0
 
+### Added
+
 - GitHub Actions 自动构建
-- M3U 下载与合并
-- 去重
+- 支持 sources.txt 多源下载
+- 自动解析 M3U
+- channel_map.yml 频道名称映射
+- 自动去重
 - 自动分类
+- sort.yml 排序规则
+- GitHub Pages 自动发布
