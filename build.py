@@ -1,4 +1,5 @@
 import yaml
+import re
 import requests
 from pathlib import Path
 
@@ -142,13 +143,58 @@ def filter_channels(channels):
     return result
 
 
+def classify_channel(channel):
+    name = channel["name"]
+
+    if name.startswith("CCTV"):
+        return "央视"
+
+    if "卫视" in name:
+        return "卫视"
+
+    if any(x in name for x in [
+        "凤凰", "TVB", "HOY", "翡翠", "明珠", "J2",
+        "港台", "澳视", "澳门"
+    ]):
+        return "港澳"
+
+    if any(x in name for x in [
+        "NHK", "CNN", "BBC", "Bloomberg",
+        "Discovery", "Animal Planet",
+        "National Geographic"
+    ]):
+        return "国际"
+
+    return channel["group"] if channel["group"] else "其它"
+
+
+
 def build_playlist(channels):
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     lines = ["#EXTM3U", ""]
 
     for channel in channels:
-        lines.append(channel["extinf"])
+
+        group = classify_channel(channel)
+
+        extinf = channel["extinf"]
+
+        # 修改已有的 group-title
+        if 'group-title="' in extinf:
+            extinf = re.sub(
+                r'group-title="[^"]*"',
+                f'group-title="{group}"',
+                extinf
+            )
+        else:
+            # 如果没有 group-title，则添加
+            extinf = extinf.replace(
+                "#EXTINF:-1",
+                f'#EXTINF:-1 group-title="{group}"'
+            )
+
+        lines.append(extinf)
         lines.append(channel["url"])
         lines.append("")
 
