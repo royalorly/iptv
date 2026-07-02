@@ -28,6 +28,22 @@ def load_sources():
             sources.append(line)
 
     return sources
+
+def download_playlist(url):
+    try:
+        r = requests.get(url, timeout=20)
+        r.raise_for_status()
+
+        print(f"Downloaded: {url}")
+
+        return r.text
+
+    except Exception as e:
+        print(f"Failed: {url}")
+        print(e)
+
+        return None
+        
     
 def build_playlist(config):
     OUTPUT_DIR.mkdir(exist_ok=True)
@@ -55,10 +71,15 @@ def main():
 
     sources = load_sources()
 
-    print("Sources:")
+    all_playlists = []
 
-    for s in sources:
-        print(s)
+    for url in sources:
+        text = download_playlist(url)
+
+        if text:
+            all_playlists.append(text)
+
+    print(f"Downloaded {len(all_playlists)} playlist(s).")
 
     build_playlist(config)
 
