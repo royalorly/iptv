@@ -102,11 +102,14 @@ def deduplicate_channels(channels):
     seen = set()
 
     for channel in channels:
-        key = (channel["name"], channel["url"])
 
-        if key not in seen:
-            seen.add(key)
-            unique.append(channel)
+        name = channel["name"].strip().lower()
+
+        if name in seen:
+            continue
+
+        seen.add(name)
+        unique.append(channel)
 
     return unique
         
