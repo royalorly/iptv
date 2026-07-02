@@ -44,6 +44,9 @@ def download_playlist(url):
 
         return None
 
+import re
+
+
 def parse_m3u(content):
     channels = []
 
@@ -57,7 +60,25 @@ def parse_m3u(content):
 
         if line.startswith("#EXTINF"):
 
+            extinf = line
+
             name = line.split(",")[-1].strip()
+
+            group = ""
+            logo = ""
+            tvg_id = ""
+
+            m = re.search(r'group-title="([^"]*)"', extinf)
+            if m:
+                group = m.group(1)
+
+            m = re.search(r'tvg-logo="([^"]*)"', extinf)
+            if m:
+                logo = m.group(1)
+
+            m = re.search(r'tvg-id="([^"]*)"', extinf)
+            if m:
+                tvg_id = m.group(1)
 
             if i + 1 < len(lines):
 
@@ -66,7 +87,10 @@ def parse_m3u(content):
                 channels.append({
                     "name": name,
                     "url": url,
-                    "extinf": line
+                    "group": group,
+                    "logo": logo,
+                    "tvg_id": tvg_id,
+                    "extinf": extinf
                 })
 
                 i += 1
@@ -125,6 +149,9 @@ def main():
     print(f"Before dedup: {len(all_channels)}")
 
     all_channels = deduplicate_channels(all_channels)
+    if all_channels:
+    print("Sample channel:")
+    print(all_channels[0])
 
     print(f"After dedup: {len(all_channels)}")
 
