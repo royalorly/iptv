@@ -45,8 +45,6 @@ def download_playlist(url):
         return None
 
 import re
-
-
 def parse_m3u(content):
     channels = []
 
