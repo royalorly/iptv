@@ -1,0 +1,51 @@
+# ===========================
+# Royal IPTV 配置文件
+# ===========================
+
+# 国家（ISO 3166-1 Alpha-2）
+countries:
+  - CN
+  - HK
+  - TW
+  - JP
+  - KR
+  - SG
+  - US
+  - GB
+
+# 分类
+categories:
+  - General
+  - News
+  - Documentary
+  - Kids
+  - Music
+  - Sports
+
+# 排除的分类
+exclude_categories:
+  - Adult
+  - Shopping
+
+# 收藏频道（优先保留）
+favorites:
+  - CCTV-1
+  - CCTV-4
+  - CCTV-13
+  - 凤凰中文
+  - 凤凰资讯
+  - TVB Jade
+  - TVB News
+  - NHK World
+  - Bloomberg
+  - BBC News
+
+# 黑名单（永远删除）
+blacklist:
+
+# 输出目录
+output: output
+
+# 输出文件
+playlist: tv.m3u
+epg: epg.xml
