@@ -9,6 +9,9 @@ on:
 
 jobs:
   build:
+    # 防止自己提交再次触发无限循环
+    if: github.actor != 'github-actions[bot]'
+
     runs-on: ubuntu-latest
 
     permissions:
@@ -17,6 +20,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -28,12 +33,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Builder
+      - name: Build Playlist
         run: |
           python build.py
 
-      - name: Upload Playlist
-        uses: actions/upload-artifact@v4
-        with:
-          name: playlist
-          path: tv.m3u
+      - name: Commit Playlist
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add tv.m3u
+
+          git diff --cached --quiet && exit 0
+
+          git commit -m "Auto update playlist"
+
+          git push
