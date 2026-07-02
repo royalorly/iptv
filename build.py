@@ -76,19 +76,14 @@ def parse_m3u(content):
     return channels
         
     
-def build_playlist(config):
+def build_playlist(channels):
     OUTPUT_DIR.mkdir(exist_ok=True)
 
-    lines = [
-        "#EXTM3U",
-        "",
-        "# Royal IPTV",
-        "",
-    ]
+    lines = ["#EXTM3U", ""]
 
-    for name in config.get("favorites", []):
-        lines.append(f'#EXTINF:-1 group-title="Favorites",{name}')
-        lines.append("https://example.com/live.m3u8")
+    for channel in channels:
+        lines.append(channel["extinf"])
+        lines.append(channel["url"])
         lines.append("")
 
     OUTPUT_FILE.write_text(
@@ -116,7 +111,7 @@ def main():
 
     print(f"Total channels: {len(all_channels)}")
 
-    build_playlist(config)
+    build_playlist(all_channels)
 
     print("Playlist generated:")
     print(OUTPUT_FILE)
