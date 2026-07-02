@@ -10,7 +10,6 @@ SOURCES_FILE = "sources.txt"
 OUTPUT_DIR = Path("output")
 OUTPUT_FILE = OUTPUT_DIR / "tv.m3u"
 
-
 def load_config():
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
