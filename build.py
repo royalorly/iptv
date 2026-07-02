@@ -7,8 +7,8 @@ CONFIG_FILE = "config.yml"
 CHANNEL_MAP_FILE = "channel_map.yml"
 CHANNEL_MAP = {}
 SOURCES_FILE = "sources.txt"
-OUTPUT_DIR = Path("output")
-OUTPUT_FILE = OUTPUT_DIR / "tv.m3u"
+OUTPUT_DIR = Path(".")
+OUTPUT_FILE = Path("tv.m3u")
 SORT_FILE = "sort.yml"
 SORT_CONFIG = {}
 
