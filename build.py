@@ -4,6 +4,7 @@ import requests
 from pathlib import Path
 
 CONFIG_FILE = "config.yml"
+CHANNEL_MAP_FILE = "channel_map.yml"
 SOURCES_FILE = "sources.txt"
 OUTPUT_DIR = Path("output")
 OUTPUT_FILE = OUTPUT_DIR / "tv.m3u"
@@ -13,6 +14,10 @@ def load_config():
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
+def load_channel_map():
+    with open(CHANNEL_MAP_FILE, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f) or {}
+        
 def load_sources():
     sources = []
 
@@ -197,7 +202,9 @@ def normalize_channel_name(name):
     if m:
         return f"CCTV-{m.group(1)}"
 
-    return name.strip()
+    name = name.strip()
+    channel_map = load_channel_map()
+    return channel_map.get(name, name)
 
 
 
