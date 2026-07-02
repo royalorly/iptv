@@ -31,3 +31,9 @@ jobs:
       - name: Run Builder
         run: |
           python build.py
+
+      - name: Upload Playlist
+        uses: actions/upload-artifact@v4
+        with:
+          name: playlist
+          path: output/
