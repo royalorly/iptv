@@ -113,7 +113,35 @@ def deduplicate_channels(channels):
 
     return unique
         
-    
+
+def filter_channels(channels):
+
+    blacklist = [
+        "注意事项",
+        "说明",
+        "公告",
+        "测试",
+    ]
+
+    result = []
+
+    for channel in channels:
+
+        name = channel["name"]
+
+        skip = False
+
+        for word in blacklist:
+            if word in name:
+                skip = True
+                break
+
+        if not skip:
+            result.append(channel)
+
+    return result
+
+
 def build_playlist(channels):
     OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -150,7 +178,7 @@ def main():
     print(f"Before dedup: {len(all_channels)}")
 
     all_channels = deduplicate_channels(all_channels)
-
+    all_channels = filter_channels(all_channels)
     print(f"After dedup: {len(all_channels)}")
 
     if all_channels:
