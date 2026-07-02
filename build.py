@@ -2,39 +2,41 @@ import yaml
 from pathlib import Path
 
 CONFIG_FILE = "config.yml"
+OUTPUT_DIR = Path("output")
+OUTPUT_FILE = OUTPUT_DIR / "tv.m3u"
 
 
 def load_config():
-    """读取配置文件"""
-    config_path = Path(CONFIG_FILE)
-
-    if not config_path.exists():
-        raise FileNotFoundError(f"找不到配置文件：{CONFIG_FILE}")
-
-    with open(config_path, "r", encoding="utf-8") as f:
+    with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
+def build_playlist(config):
+    OUTPUT_DIR.mkdir(exist_ok=True)
+
+    lines = [
+        "#EXTM3U",
+        "",
+        "# Royal IPTV",
+        "",
+    ]
+
+    for name in config.get("favorites", []):
+        lines.append(f'#EXTINF:-1 group-title="Favorites",{name}')
+        lines.append("https://example.com/live.m3u8")
+        lines.append("")
+
+    OUTPUT_FILE.write_text(
+        "\n".join(lines),
+        encoding="utf-8"
+    )
+
+
 def main():
-    print("=" * 50)
-    print("Royal IPTV Builder")
-    print("=" * 50)
-
     config = load_config()
-
-    print("\n国家：")
-    for country in config.get("countries", []):
-        print(f"  - {country}")
-
-    print("\n分类：")
-    for category in config.get("categories", []):
-        print(f"  - {category}")
-
-    print("\n收藏频道：")
-    for channel in config.get("favorites", []):
-        print(f"  - {channel}")
-
-    print("\n配置读取成功！")
+    build_playlist(config)
+    print("Playlist generated:")
+    print(OUTPUT_FILE)
 
 
 if __name__ == "__main__":
