@@ -109,7 +109,7 @@ def deduplicate_channels(channels):
 
     for channel in channels:
 
-        name = normalize_channel_name(channel["name"]).lower()
+        name = m = re.match(channel["name"]).lower()
 
         if name in seen:
             continue
@@ -198,9 +198,9 @@ def normalize_channel_name(name):
     name = name.replace(" ", "")
 
     # CCTV 统一格式
-    m = re.match(r"CCTV[- ]?(\d+)", name, re.IGNORECASE)
+    m = re.match(r"(?i)cctv[- ]?(\d+)", name)
     if m:
-        return f"CCTV-{m.group(1)}"
+        name = f"CCTV-{m.group(1)}"
 
     name = name.strip()
     
