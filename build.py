@@ -43,6 +43,37 @@ def download_playlist(url):
         print(e)
 
         return None
+
+def parse_m3u(content):
+    channels = []
+
+    lines = content.splitlines()
+
+    i = 0
+
+    while i < len(lines):
+
+        line = lines[i].strip()
+
+        if line.startswith("#EXTINF"):
+
+            name = line.split(",")[-1].strip()
+
+            if i + 1 < len(lines):
+
+                url = lines[i + 1].strip()
+
+                channels.append({
+                    "name": name,
+                    "url": url,
+                    "extinf": line
+                })
+
+                i += 1
+
+        i += 1
+
+    return channels
         
     
 def build_playlist(config):
@@ -71,15 +102,21 @@ def main():
 
     sources = load_sources()
 
-    all_playlists = []
+    all_channels = []
 
     for url in sources:
-        text = download_playlist(url)
 
-        if text:
-            all_playlists.append(text)
+    text = download_playlist(url)
 
-    print(f"Downloaded {len(all_playlists)} playlist(s).")
+    if text:
+
+        channels = parse_m3u(text)
+
+        print(f"{len(channels)} channels")
+
+        all_channels.extend(channels)
+
+    print(f"Total channels: {len(all_channels)}")
 
     build_playlist(config)
 
