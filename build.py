@@ -74,6 +74,19 @@ def parse_m3u(content):
         i += 1
 
     return channels
+
+def deduplicate_channels(channels):
+    unique = []
+    seen = set()
+
+    for channel in channels:
+        key = (channel["name"], channel["url"])
+
+        if key not in seen:
+            seen.add(key)
+            unique.append(channel)
+
+    return unique
         
     
 def build_playlist(channels):
@@ -109,7 +122,11 @@ def main():
 
             all_channels.extend(channels)
 
-    print(f"Total channels: {len(all_channels)}")
+    print(f"Before dedup: {len(all_channels)}")
+
+    all_channels = deduplicate_channels(all_channels)
+
+    print(f"After dedup: {len(all_channels)}")
 
     build_playlist(all_channels)
 
