@@ -5,6 +5,7 @@ from pathlib import Path
 
 CONFIG_FILE = "config.yml"
 CHANNEL_MAP_FILE = "channel_map.yml"
+CHANNEL_MAP = {}
 SOURCES_FILE = "sources.txt"
 OUTPUT_DIR = Path("output")
 OUTPUT_FILE = OUTPUT_DIR / "tv.m3u"
@@ -203,7 +204,7 @@ def normalize_channel_name(name):
         return f"CCTV-{m.group(1)}"
 
     name = name.strip()
-    channel_map = load_channel_map()
+    
     return channel_map.get(name, name)
 
 
@@ -252,8 +253,9 @@ def build_playlist(channels):
 
 
 def main():
+    global CHANNEL_MAP
+    CHANNEL_MAP = load_channel_map()
     config = load_config()
-
     sources = load_sources()
 
     all_channels = []
