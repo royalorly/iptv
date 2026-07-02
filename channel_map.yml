@@ -1,18 +1,149 @@
+# =========================
 # CCTV
+# =========================
+
 CCTV1: CCTV-1
 CCTV 1: CCTV-1
-CCTV-1 HD: CCTV-1
 CCTV-1 综合: CCTV-1
+CCTV1综合: CCTV-1
+央视1: CCTV-1
+央视一套: CCTV-1
+中央1: CCTV-1
+中央一套: CCTV-1
 
 CCTV2: CCTV-2
 CCTV 2: CCTV-2
 CCTV-2 财经: CCTV-2
+央视2: CCTV-2
+央视二套: CCTV-2
+中央2: CCTV-2
+中央二套: CCTV-2
 
-# 凤凰
+CCTV3: CCTV-3
+CCTV 3: CCTV-3
+央视3: CCTV-3
+央视三套: CCTV-3
+中央3: CCTV-3
+
+CCTV4: CCTV-4
+CCTV 4: CCTV-4
+CCTV-4 中文国际: CCTV-4
+央视4: CCTV-4
+央视四套: CCTV-4
+
+CCTV5: CCTV-5
+CCTV 5: CCTV-5
+CCTV-5 体育: CCTV-5
+央视5: CCTV-5
+央视五套: CCTV-5
+
+CCTV5+: CCTV-5+
+CCTV 5+: CCTV-5+
+CCTV5＋: CCTV-5+
+CCTV-5+ 体育赛事: CCTV-5+
+央视5+: CCTV-5+
+央视体育赛事: CCTV-5+
+
+CCTV6: CCTV-6
+CCTV7: CCTV-7
+CCTV8: CCTV-8
+CCTV9: CCTV-9
+CCTV10: CCTV-10
+CCTV11: CCTV-11
+CCTV12: CCTV-12
+CCTV13: CCTV-13
+CCTV14: CCTV-14
+CCTV15: CCTV-15
+CCTV16: CCTV-16
+CCTV17: CCTV-17
+
+CCTV4K: CCTV-4K
+CCTV8K: CCTV-8K
+
+# =========================
+# 卫视
+# =========================
+
+BTV卫视: 北京卫视
+北京卫视HD: 北京卫视
+北京卫视高清: 北京卫视
+
+上海卫视: 东方卫视
+DragonTV: 东方卫视
+东方卫视HD: 东方卫视
+
+湖南卫视HD: 湖南卫视
+芒果卫视: 湖南卫视
+
+江苏卫视HD: 江苏卫视
+浙江卫视HD: 浙江卫视
+广东卫视HD: 广东卫视
+深圳卫视HD: 深圳卫视
+
+安徽卫视HD: 安徽卫视
+湖北卫视HD: 湖北卫视
+山东卫视HD: 山东卫视
+河南卫视HD: 河南卫视
+四川卫视HD: 四川卫视
+重庆卫视HD: 重庆卫视
+天津卫视HD: 天津卫视
+江西卫视HD: 江西卫视
+东南卫视HD: 东南卫视
+辽宁卫视HD: 辽宁卫视
+黑龙江卫视HD: 黑龙江卫视
+
+# =========================
+# 港澳
+# =========================
+
 凤凰中文台: 凤凰中文
-Phoenix Chinese: 凤凰中文
+凤凰中文HD: 凤凰中文
 
-# TVB
+凤凰资讯台: 凤凰资讯
+凤凰资讯HD: 凤凰资讯
+
 TVBJade: TVB翡翠台
 TVB Jade: TVB翡翠台
-#
+TVB翡翠: TVB翡翠台
+
+TVBPearl: TVB明珠台
+TVB Pearl: TVB明珠台
+
+HOY76: HOY TV
+HOY77: HOY资讯
+
+澳视澳门: 澳门资讯
+
+# =========================
+# 国际
+# =========================
+
+CNN HD: CNN
+CNN International: CNN
+
+BBC World: BBC World News
+BBC World HD: BBC World News
+
+NHK World HD: NHK World
+
+Bloomberg HD: Bloomberg
+
+Discovery HD: Discovery
+
+National Geographic HD: National Geographic
+
+# =========================
+# 少儿
+# =========================
+
+金鹰卡通HD: 金鹰卡通
+卡酷少儿HD: 卡酷少儿
+嘉佳卡通HD: 嘉佳卡通
+
+# =========================
+# 电影
+# =========================
+
+CHC家庭影院HD: CHC家庭影院
+CHC高清电影HD: CHC高清电影
+CHC动作电影HD: CHC动作电影
