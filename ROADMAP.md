@@ -16,6 +16,43 @@ Royal IPTV v0.1.0 Released
 ✅ HTTPS
 
 ## ⏳ v0.2
+
+现在可以正式开始 GitHub Repository Engine。
+
+也是整个项目真正的核心。
+
+我们不是简单支持：
+
+https://xxxxx/tv.m3u
+
+而是支持：
+
+https://github.com/xxxxx/yyyyy
+
+程序自动：
+
+GitHub Repo
+      │
+      ▼
+GitHub API
+      │
+      ▼
+识别 main/master
+      │
+      ▼
+扫描整个仓库
+      │
+      ▼
+找到所有 m3u / m3u8
+      │
+      ▼
+自动下载
+      │
+      ▼
+缓存
+      │
+      ▼
+更新 tv.m3u
 - [ ] Logo
 - [ ] Logo缓存
 - [ ] 频道排序优化
