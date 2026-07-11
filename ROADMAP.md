@@ -1,12 +1,19 @@
 # Royal IPTV Roadmap
 
-## ✅ v0.1 Core
-- [x] GitHub Actions
-- [ ] 下载M3U
-- [x] 去重
-- [x] 分类
-- [x] channel_map.yml
-- [x] sort.yml
+Royal IPTV v0.1.0 Released
+
+已完成
+✅ GitHub Repository
+✅ GitHub Actions
+✅ 自动下载 M3U
+✅ 自动解析
+✅ 去重
+✅ 频道标准化
+✅ 自动分类
+✅ 自动排序
+✅ GitHub Pages
+✅ 自定义域名
+✅ HTTPS
 
 ## ⏳ v0.2
 - [ ] Logo
