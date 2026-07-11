@@ -1,16 +1,22 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="cctv5" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv5.png" group-title="普通频道",CCTV-5
-http://82.156.243.185:36888/av3a/cctv5n.m3u8
+#EXTINF:-1 tvg-name="TSN 4K" tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos/countries/canada/tsn-4k-ca.png" group-title="4K英文解说",TSN
+https://kan.waiguotai.top/p/e755232a-1c0f-4bd6-bfbd-6ff95e78d29e
 
-#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv16.png" group-title="普通频道",CCTV-16
-http://82.156.243.185:36888/av3a/cctv16n.m3u8
+#EXTINF:-1 tvg-name="Fox Sports 4K HDR" tvg-logo="https://cdn.jsdelivr.net/gh/jkwu5472/first/fox.png" group-title="4K英文解说",FoxSportsR
+https://watch.yingyujieshuo.top/p/10bf977d-8b5c-4b77-abe7-bfdb45057daa
 
-#EXTINF:-1 tvg-name="cctv4k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv4k.png" group-title="普通频道",CCTV-4
-http://82.156.243.185:36888/av3a/cctv4kn.m3u8
+#EXTINF:-1 tvg-name="FussBall TV" tvg-logo="https://cdn.jsdelivr.net/gh/jkwu5472/first/fussball.png" group-title="4K杜比视界世界杯正赛",FussBallTV
+https://cdn.staticres.top/p/b1ea7ad7-d641-4c00-8b52-185c98fb9190
 
-#EXTINF:-1 tvg-name="cctv8k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv8k.png" group-title="普通频道",CCTV-8
-http://82.156.243.185:36888/av3a/cctv8kn.m3u8
+#EXTINF:-1 tvg-name="4tos de Final: España v. Bélgica" group-title="4K杜比视界世界杯正赛",4tosdeFinal:Españav.Bélgica_2026-07-1102:40:00_1783708800000
+https://picture.shenniaokongque.top/event/0738c6b7-56ce-3744-a5ec-de16deadd4bc
+
+#EXTINF:-1 tvg-name="4tos de Final: Noruega v. Inglaterra" group-title="4K杜比视界世界杯正赛",4tosdeFinal:Noruegav.Inglaterra_2026-07-1204:40:00_1783802400000
+https://picture.shenniaokongque.top/event/b0097a9d-01fc-3373-96e8-3c08da404a26
+
+#EXTINF:-1 tvg-name="4tos de Final: Argentina v. Suiza" group-title="4K杜比视界世界杯正赛",4tosdeFinal:Argentinav.Suiza_2026-07-1207:10:00_1783811400000
+https://picture.shenniaokongque.top/event/2df93a77-2bbb-36ee-b2eb-b3046db0fda8
 
 #EXTINF:-1 tvg-name="世界杯4K回放-开幕式&揭幕战_2026-06-12 01:25:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032190d27h70069ip3a5i0000000000440f3dmm" group-title="4K世界杯回放",世界杯回放-开幕式&揭幕战_2026-06-1201:25:00
 http://82.156.243.185:34567/xhs/4459820
@@ -258,161 +264,179 @@ http://82.156.243.185:34567/xhs/4459726
 #EXTINF:-1 tvg-name="世界杯4K回放-美国vs波黑_2026-07-02 07:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321s7mub6na06k77ao0jp40000000005rguc0g" group-title="4K世界杯回放",世界杯回放-美国vs波黑_2026-07-0207:30:00
 http://82.156.243.185:34567/xhs/4459725
 
-#EXTINF:-1 tvg-name="16vos de Final: España v. Austria" group-title="4K杜比视界世界杯正赛",16vosdeFinal:Españav.Austria_2026-07-0302:40:00_1783017600000
-https://cdn.99998888.cc/event/10a8d645-3718-3b68-be71-bd877d632fb6?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="世界杯4K回放-西班牙vs奥地利_2026-07-03 02:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321upok067k06k77ao0jp40000000005tu69di" group-title="4K世界杯回放",世界杯回放-西班牙vs奥地利_2026-07-0302:00:00
+http://82.156.243.185:34567/xhs/4459728
 
-#EXTINF:-1 tvg-name="16vos de Final: Portugal v. Croacia" group-title="4K杜比视界世界杯正赛",16vosdeFinal:Portugalv.Croacia_2026-07-0305:10:00_1783026600000
-https://cdn.99998888.cc/event/51d06c5c-1394-3d2b-9633-ac2787e10f96?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="世界杯4K回放-葡萄牙vs克罗地亚_2026-07-03 06:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321umlbtkne06k77ao0jp4000000000083aspc" group-title="4K世界杯回放",世界杯回放-葡萄牙vs克罗地亚_2026-07-0306:00:00
+http://82.156.243.185:34567/xhs/4459727
 
-#EXTINF:-1 tvg-name="16vos de Final: Suiza v. Argelia" group-title="4K杜比视界世界杯正赛",16vosdeFinal:Suizav.Argelia_2026-07-0309:10:00_1783041000000
-https://cdn.99998888.cc/event/7c89f62b-3676-31e6-9640-637cfcc23127?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="世界杯4K回放-瑞士vs阿尔及利亚_2026-07-03 10:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321uprq747a06k77ao0jp40000000000vtqtjg" group-title="4K世界杯回放",世界杯回放-瑞士vs阿尔及利亚_2026-07-0310:30:00
+http://82.156.243.185:34567/xhs/4459729
 
-#EXTINF:-1 tvg-name="16vos de Final: Australia v. Egipto" group-title="4K杜比视界世界杯正赛",16vosdeFinal:Australiav.Egipto_2026-07-0401:40:00_1783100400000
-https://cdn.99998888.cc/event/4327060a-72c2-343a-823e-26a838f12bc1?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="世界杯4K回放-澳大利亚vs埃及_2026-07-04 01:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321tihv8sna06k77ao0jp40000000006j30r04" group-title="4K世界杯回放",世界杯回放-澳大利亚vs埃及_2026-07-0401:30:00
+http://82.156.243.185:34567/xhs/4459797
 
-#EXTINF:-1 tvg-name="16vos de Final: Argentina v. Cabo Verde" group-title="4K杜比视界世界杯正赛",16vosdeFinal:Argentinav.CaboVerde_2026-07-0404:10:00_1783109400000
-https://cdn.99998888.cc/event/681dfdcc-8f6b-3d56-a16f-fd4a538921bd?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="世界杯4K回放-阿根廷vs佛得角_2026-07-04 05:05:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321td0q567o06k77ao0jp40000000005ngimok" group-title="4K世界杯回放",世界杯回放-阿根廷vs佛得角_2026-07-0405:05:00
+http://82.156.243.185:34567/xhs/4459731
 
-#EXTINF:-1 tvg-name="16vos de Final: Colombia v. Ghana" group-title="4K杜比视界世界杯正赛",16vosdeFinal:Colombiav.Ghana_2026-07-0408:10:00_1783123800000
-https://cdn.99998888.cc/event/68d6c109-2275-3c0c-afae-814defe21c9e?prefix=https://cdn.99998888.cc
+#EXTINF:-1 tvg-name="世界杯4K回放-哥伦比亚vs加纳_2026-07-04 09:10:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0321umlpa17k06k77ao0jp400000000014trnvs" group-title="4K世界杯回放",世界杯回放-哥伦比亚vs加纳_2026-07-0409:10:00
+http://82.156.243.185:34567/xhs/4459732
+
+#EXTINF:-1 tvg-name="世界杯4K回放-加拿大vs摩洛哥_2026-07-05 00:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03221ctvb8no06goq2oo30k000000000neomt8g" group-title="4K世界杯回放",世界杯回放-加拿大vs摩洛哥_2026-07-0500:30:00
+http://82.156.243.185:34567/xhs/4459801
+
+#EXTINF:-1 tvg-name="世界杯4K回放-巴拉圭vs法国_2026-07-05 04:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03222cilqu7u76k77ao0jp40000000006j9tnci" group-title="4K世界杯回放",世界杯回放-巴拉圭vs法国_2026-07-0504:00:00
+http://82.156.243.185:34567/xhs/4459800
+
+#EXTINF:-1 tvg-name="世界杯4K回放-巴西vs挪威_2026-07-06 03:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03222lfviuna06goq2oo30k000000000l9b9bg4" group-title="4K世界杯回放",世界杯回放-巴西vs挪威_2026-07-0603:00:00
+http://82.156.243.185:34567/xhs/4459802
+
+#EXTINF:-1 tvg-name="世界杯4K回放-墨西哥vs英格兰_2026-07-06 07:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03223n7t73ne06goq2oo30k000000000gsbncvo" group-title="4K世界杯回放",世界杯回放-墨西哥vs英格兰_2026-07-0607:00:00
+http://82.156.243.185:34567/xhs/4459803
+
+#EXTINF:-1 tvg-name="世界杯4K回放-葡萄牙vs西班牙_2026-07-07 02:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n032253o8jd7k06goq2oo30k000000000nq1g7i8" group-title="4K世界杯回放",世界杯回放-葡萄牙vs西班牙_2026-07-0702:00:00
+http://82.156.243.185:34567/xhs/4459804
+
+#EXTINF:-1 tvg-name="世界杯4K回放-美国vs比利时_2026-07-07 07:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03223rjvjunu06goq2oo30k000000000i2maogi" group-title="4K世界杯回放",世界杯回放-美国vs比利时_2026-07-0707:30:00
+http://82.156.243.185:34567/xhs/4459805
+
+#EXTINF:-1 tvg-name="世界杯4K回放-阿根廷vs埃及_2026-07-07 23:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03226e5gc5na06goq2oo30k000000000g2788l8" group-title="4K世界杯回放",世界杯回放-阿根廷vs埃及_2026-07-0723:00:00
+http://82.156.243.185:34567/xhs/4459806
+
+#EXTINF:-1 tvg-name="世界杯4K回放-瑞士vs哥伦比亚_2026-07-08 03:30:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n03226foegs7e06goq2oo30k000000000mss5k68" group-title="4K世界杯回放",世界杯回放-瑞士vs哥伦比亚_2026-07-0803:30:00
+http://82.156.243.185:34567/xhs/4459807
+
+#EXTINF:-1 tvg-name="世界杯4K回放-法国vs摩洛哥_2026-07-10 03:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322d5iekune06k77ao0jp400000000039dqd1g" group-title="4K世界杯回放",世界杯回放-法国vs摩洛哥_2026-07-1003:00:00
+http://82.156.243.185:34567/xhs/4459808
+
+#EXTINF:-1 tvg-name="世界杯4K回放-西班牙vs比利时_2026-07-11 02:00:00" tvg-logo="https://growth-img.xhscdn.com/ditto/104100n0322ddm7d5no06k0a0d0jpk000000000127gj9u" group-title="4K世界杯回放",世界杯回放-西班牙vs比利时_2026-07-1102:00:00
+http://82.156.243.185:34567/xhs/4459809
 
 #EXTINF:-1 group-title="📢 频道关注",✈️关注TG@stymei
 https://k0u3cydy43y9zw2408x8760xfx5xx9z.djvod.ndcimgs.com/upic/2026/03/07/21/BMjAyNjAzMDcyMTIyMzlfNDI0MDI5NTBfMTg5Nzk0ODUxNjg5XzFfMw==_b_Bc33d39ac3524c256f9ddabce4588794b.mp4
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1009.jpg?v=1780171883879" group-title="世欧预",立陶宛vs英国-9(线路1)
-https://live.666666.zip/live/3871054.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1007.jpg?v=1780171883879" group-title="中超",成都蓉城vs重庆铜梁龙-7(线路1)
+https://live.666666.zip/live/4498915.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1009.jpg?v=1780171883879" group-title="世欧预",立陶宛vs英国-9(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3871054.m3u8?txSecret=f06cbee6eb609c7e1f1793073a7d5a57&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1007.jpg?v=1780171883879" group-title="中超",成都蓉城vs重庆铜梁龙-7(线路2)
+https://pul-tenm.gkykp.com/live/hd-zh-1-4498915.m3u8?txSecret=48d16edb155435e2bed3df5a5e189cfd&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1023.jpg?v=1780171883879" group-title="世亚预",约旦vs伊朗-23(线路1)
-https://live.666666.zip/live/3871439.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1006.jpg?v=1780171883879" group-title="韩K联",金泉尚武vs富川FC-6(线路1)
+https://live.666666.zip/live/4480338.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1023.jpg?v=1780171883879" group-title="世亚预",约旦vs伊朗-23(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3871439.m3u8?txSecret=ac6288df177e606e44287aba539aacc9&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1006.jpg?v=1780171883879" group-title="韩K联",金泉尚武vs富川FC-6(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4480338.m3u8?txSecret=f32e4e70665e039e0103c3eef203e3f4&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1006.jpg?v=1780171883879" group-title="世非预",埃及vs马里-6(线路1)
-https://live.666666.zip/live/3887756.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1036.jpg?v=1780171883879" group-title="中超",深圳新鹏城vs青岛西海岸-36(线路1)
+https://live.666666.zip/live/4498924.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1007.jpg?v=1780171883879" group-title="世非预",马达加斯加vs民主刚果-7(线路1)
-https://live.666666.zip/live/3887761.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1036.jpg?v=1780171883879" group-title="中超",深圳新鹏城vs青岛西海岸-36(线路2)
+https://pul-tenm.gkykp.com/live/hd-zh-1-4498924.m3u8?txSecret=0b9743fe37ff17d0d8cd19126f0557a0&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1007.jpg?v=1780171883879" group-title="世非预",马达加斯加vs民主刚果-7(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3887761.m3u8?txSecret=dc2621cdd98084d06391976e9c50153a&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1048.jpg?v=1780171883879" group-title="CFA友谊赛义乌赛",中国U17vs尼日利亚U17-48(线路1)
+https://live.666666.zip/live/4555153.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1003.jpg?v=1780171883879" group-title="球会友谊",亚穆尼积vs贝尔格莱德游击-3(线路1)
-https://live.666666.zip/live/4565010.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1018.jpg?v=1780171883879" group-title="韩K2联",安山小绿人vs水原三星-18(线路1)
+https://live.666666.zip/live/4481124.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1003.jpg?v=1780171883879" group-title="球会友谊",亚穆尼积vs贝尔格莱德游击-3(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4565010.m3u8?txSecret=b5d8588fa024b281bdafbead611308f8&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1018.jpg?v=1780171883879" group-title="韩K2联",安山小绿人vs水原三星-18(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4481124.m3u8?txSecret=74ad7699d23006fc715cf0fdcdf93b76&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1004.jpg?v=1780171883879" group-title="冰岛超",托尔阿克雷里vs雷克雅未克-4(线路1)
-https://live.666666.zip/live/4480134.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1021.jpg?v=1780171883879" group-title="韩K2联",大邱FCvs城南FC-21(线路1)
+https://live.666666.zip/live/4481125.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1004.jpg?v=1780171883879" group-title="冰岛超",托尔阿克雷里vs雷克雅未克-4(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4480134.m3u8?txSecret=613b01bbc9955728f3ea52779b1170f1&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1021.jpg?v=1780171883879" group-title="韩K2联",大邱FCvs城南FC-21(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4481125.m3u8?txSecret=d456c18dd065de51760155c601425d51&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1005.jpg?v=1780171883879" group-title="世非预",利比亚vs南苏丹-5(线路1)
-https://live.666666.zip/live/3887721.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1026.jpg?v=1780171883879" group-title="中甲",大连鲲城vs南京城市-26(线路1)
+https://live.666666.zip/live/4505271.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1008.jpg?v=1780171883879" group-title="世欧预",乌克兰vs格鲁吉亚-8(线路1)
-https://live.666666.zip/live/3871051.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1026.jpg?v=1780171883879" group-title="中甲",大连鲲城vs南京城市-26(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4505271.m3u8?txSecret=2f0eefb293324e72df4484509a701caf&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1008.jpg?v=1780171883879" group-title="世欧预",乌克兰vs格鲁吉亚-8(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3871051.m3u8?txSecret=17c047441a3ba176284ec15ede74f02b&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1046.jpg?v=1780171883879" group-title="芬超",拉赫蒂vs赫尔辛基-46(线路1)
+https://live.666666.zip/live/4468144.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1010.jpg?v=1780171883879" group-title="爱沙甲",库雷撒勒vs塔林弗洛拉-10(线路1)
-https://live.666666.zip/live/4486543.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1046.jpg?v=1780171883879" group-title="芬超",拉赫蒂vs赫尔辛基-46(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4468144.m3u8?txSecret=708fe127ed16aba30300f9695ba486f1&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1010.jpg?v=1780171883879" group-title="爱沙甲",库雷撒勒vs塔林弗洛拉-10(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4486543.m3u8?txSecret=367053ffdc3724eeac62abb5ebfbd344&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1001.jpg?v=1780171883879" group-title="村超",小堡村vs龙泉井村-1(线路1)
+https://live.666666.zip/live/4537501.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1011.jpg?v=1780171883879" group-title="白俄超",明斯克vs明斯克迪纳摩-11(线路1)
-https://live.666666.zip/live/4502857.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1016.jpg?v=1780171883879" group-title="韩K2联",龙仁FCvs忠北清州-16(线路1)
+https://live.666666.zip/live/4481127.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1011.jpg?v=1780171883879" group-title="白俄超",明斯克vs明斯克迪纳摩-11(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4502857.m3u8?txSecret=3d10c1bde0e662b338d9fe3afc1bb0b9&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1016.jpg?v=1780171883879" group-title="韩K2联",龙仁FCvs忠北清州-16(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4481127.m3u8?txSecret=739c12ad5602d8b10f2d3329ec760e3c&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1013.jpg?v=1780171883879" group-title="摩洛超",梅克内斯vs拉巴特皇家武装-13(线路1)
-https://live.666666.zip/live/4565711.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1017.jpg?v=1780171883879" group-title="韩K2联",华城FCvs坡州前线-17(线路1)
+https://live.666666.zip/live/4481126.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1013.jpg?v=1780171883879" group-title="摩洛超",梅克内斯vs拉巴特皇家武装-13(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4565711.m3u8?txSecret=3d0f45bc5167bcfd49e4b931b992baec&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1017.jpg?v=1780171883879" group-title="韩K2联",华城FCvs坡州前线-17(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4481126.m3u8?txSecret=cbe90a1d018645401b67e7797e79710c&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1015.jpg?v=1780171883879" group-title="摩洛超",马拉肯查vs玛利比菲斯-15(线路1)
-https://live.666666.zip/live/4565713.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1019.jpg?v=1780171883879" group-title="韩K联",光州FCvs浦项铁人-19(线路1)
+https://live.666666.zip/live/4480398.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1015.jpg?v=1780171883879" group-title="摩洛超",马拉肯查vs玛利比菲斯-15(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4565713.m3u8?txSecret=2e9d65ebc5ab4ee32052dcca17852a6a&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1019.jpg?v=1780171883879" group-title="韩K联",光州FCvs浦项铁人-19(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4480398.m3u8?txSecret=6de963880f6bf23e6be8cbb9e61f4fbe&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1021.jpg?v=1780171883879" group-title="欧国预",北马其顿vs爱尔兰-21(线路1)
-https://live.666666.zip/live/3887908.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1020.jpg?v=1780171883879" group-title="韩K联",蔚山vs全北现代-20(线路1)
+https://live.666666.zip/live/4480346.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1021.jpg?v=1780171883879" group-title="欧国预",北马其顿vs爱尔兰-21(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3887908.m3u8?txSecret=9f8423d792338aaab4adc167d859acbd&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1020.jpg?v=1780171883879" group-title="韩K联",蔚山vs全北现代-20(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4480346.m3u8?txSecret=0c8a3b8a2b3d90752b1ee58354ed6123&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1022.jpg?v=1780171883879" group-title="世欧预",罗马尼亚vs希腊-22(线路1)
-https://live.666666.zip/live/3871042.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1024.jpg?v=1780171883879" group-title="中甲",陕西联合vs梅州客家-24(线路1)
+https://live.666666.zip/live/4505275.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1022.jpg?v=1780171883879" group-title="世欧预",罗马尼亚vs希腊-22(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3871042.m3u8?txSecret=4b6db1d8d24d2bab2a68bb54e03299e1&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1024.jpg?v=1780171883879" group-title="中甲",陕西联合vs梅州客家-24(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4505275.m3u8?txSecret=ef44169d7c4dddb761a9d6a7543af884&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1024.jpg?v=1780171883879" group-title="世欧预",西班牙vs丹麦-24(线路1)
-https://live.666666.zip/live/3871058.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1028.jpg?v=1780171883879" group-title="爱沙甲",帕尔努瓦普鲁斯vs潭美卡-28(线路1)
+https://live.666666.zip/live/4486552.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1024.jpg?v=1780171883879" group-title="世欧预",西班牙vs丹麦-24(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3871058.m3u8?txSecret=0ee5bd4c889e96b6dfb833c93dc3a842&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1028.jpg?v=1780171883879" group-title="爱沙甲",帕尔努瓦普鲁斯vs潭美卡-28(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4486552.m3u8?txSecret=4c3b80e7bc2775f2f3b64c78563f48c7&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1025.jpg?v=1780171883879" group-title="世亚预",沙特vs黎巴嫩-25(线路1)
-https://live.666666.zip/live/3871411.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1029.jpg?v=1780171883879" group-title="中乙",赣州瑞狮vs成都蓉城B队-29(线路1)
+https://live.666666.zip/live/4512928.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1025.jpg?v=1780171883879" group-title="世亚预",沙特vs黎巴嫩-25(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3871411.m3u8?txSecret=298c47660c8dfc700ec6ce0535a0abf2&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1029.jpg?v=1780171883879" group-title="中乙",赣州瑞狮vs成都蓉城B队-29(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4512928.m3u8?txSecret=0d1ff10349fa3cdcc27c117084d939be&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1026.jpg?v=1780171883879" group-title="世非预",佛得角vs喀麦隆-26(线路1)
-https://live.666666.zip/live/3887762.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1033.jpg?v=1780171883879" group-title="中乙",广东铭途vs深圳二零二八-33(线路1)
+https://live.666666.zip/live/4512920.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1026.jpg?v=1780171883879" group-title="世非预",佛得角vs喀麦隆-26(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3887762.m3u8?txSecret=3a8c653fe0fdf3ed4c7a9ba791595274&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1033.jpg?v=1780171883879" group-title="中乙",广东铭途vs深圳二零二八-33(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4512920.m3u8?txSecret=ab3645bc0d80ec28bb1f9c201239361a&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1027.jpg?v=1780171883879" group-title="欧国预",卢森堡vs阿塞拜疆-27(线路1)
-https://live.666666.zip/live/3887910.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1034.jpg?v=1780171883879" group-title="中甲",广州豹vs石家庄功夫-34(线路1)
+https://live.666666.zip/live/4505277.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1027.jpg?v=1780171883879" group-title="欧国预",卢森堡vs阿塞拜疆-27(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3887910.m3u8?txSecret=f6fce83c9d22740e1459e3468c94daac&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1034.jpg?v=1780171883879" group-title="中甲",广州豹vs石家庄功夫-34(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4505277.m3u8?txSecret=4cad7a2dfe4766890f6098f106bce944&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1028.jpg?v=1780171883879" group-title="欧国预",科索沃vs阿尔巴尼亚-28(线路1)
-https://live.666666.zip/live/3887915.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1037.jpg?v=1780171883879" group-title="川超",南充队vs宜宾队-37(线路1)
+https://live.666666.zip/live/4509993.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1028.jpg?v=1780171883879" group-title="欧国预",科索沃vs阿尔巴尼亚-28(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3887915.m3u8?txSecret=96d00dc9138b21ee4d3f77cd45c986fd&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1038.jpg?v=1780171883879" group-title="川超",自贡队vs德阳队-38(线路1)
+https://live.666666.zip/live/4509994.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1029.jpg?v=1780171883879" group-title="欧国预",挪威vs亚美尼亚-29(线路1)
-https://live.666666.zip/live/3887925.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1039.jpg?v=1780171883879" group-title="川超",绵阳队vs凉山队-39(线路1)
+https://live.666666.zip/live/4509995.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1029.jpg?v=1780171883879" group-title="欧国预",挪威vs亚美尼亚-29(线路2)
-https://pul-tenm.gkykp.com/live/sd-2-3887925.m3u8?txSecret=bbdbe15873682d81acaa70b739f7c152&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1040.jpg?v=1780171883879" group-title="川超",达州队vs成都队-40(线路1)
+https://live.666666.zip/live/4509996.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1035.jpg?v=1780171883879" group-title="球会友谊",科佩尔vs胡内多阿拉-35(线路1)
-https://live.666666.zip/live/4564533.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1044.jpg?v=1780171883879" group-title="哈萨超",巴甫洛达尔额尔齐斯vs热尼斯-44(线路1)
+https://live.666666.zip/live/4507267.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1035.jpg?v=1780171883879" group-title="球会友谊",科佩尔vs胡内多阿拉-35(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4564533.m3u8?txSecret=f34882b8fa9c9c5388c1b77156a5a1ab&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1044.jpg?v=1780171883879" group-title="哈萨超",巴甫洛达尔额尔齐斯vs热尼斯-44(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4507267.m3u8?txSecret=eea88416fc49d836736758c6bfaa8a1b&txTime=6A538761
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1036.jpg?v=1780171883879" group-title="球会友谊",尼菲治巴库vs克卢日-36(线路1)
-https://live.666666.zip/live/4566208.m3u8
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1045.jpg?v=1780171883879" group-title="挪超",腓特烈斯塔vs利勒斯特罗姆-45(线路1)
+https://live.666666.zip/live/4467565.m3u8
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1036.jpg?v=1780171883879" group-title="球会友谊",尼菲治巴库vs克卢日-36(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4566208.m3u8?txSecret=28cb66c1972c9f032d9f747e87c42f23&txTime=6A47E9A0
-
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1037.jpg?v=1780171883879" group-title="欧青U19",塞尔维亚U19vs乌克兰U19-37(线路1)
-https://live.666666.zip/live/4551240.m3u8
-
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1037.jpg?v=1780171883879" group-title="欧青U19",塞尔维亚U19vs乌克兰U19-37(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4551240.m3u8?txSecret=34b05290abe58948a1e5986c878b664e&txTime=6A47E9A0
-
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1204.jpg?v=1780171883879" group-title="球会友谊",亚穆尼积vs贝尔格莱德游击-原声4(线路1)
-https://live.666666.zip/live/4565010.m3u8
-
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1204.jpg?v=1780171883879" group-title="球会友谊",亚穆尼积vs贝尔格莱德游击-原声4(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4565010.m3u8?txSecret=b5d8588fa024b281bdafbead611308f8&txTime=6A47E9A0
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1045.jpg?v=1780171883879" group-title="挪超",腓特烈斯塔vs利勒斯特罗姆-45(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4467565.m3u8?txSecret=7e2a0f9e094534533587fb1cbaa56657&txTime=6A538761
