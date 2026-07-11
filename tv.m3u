@@ -339,12 +339,6 @@ https://live.666666.zip/live/4467093.m3u8
 #EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1002.jpg?v=1780171883879" group-title="瑞典超",米亚尔比vs索尔纳-2(线路2)
 https://pul-tenm.gkykp.com/live/sd-1-4467093.m3u8?txSecret=05e83937678a7e13b3b3451c2afb45dd&txTime=6A539571
 
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1005.jpg?v=1780171883879" group-title="白俄超",巴兰诺域治vs若基诺鱼雷-5(线路1)
-https://live.666666.zip/live/4502864.m3u8
-
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1005.jpg?v=1780171883879" group-title="白俄超",巴兰诺域治vs若基诺鱼雷-5(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4502864.m3u8?txSecret=00429e6b350387b3d9fec4761c9b57c0&txTime=6A539571
-
 #EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1045.jpg?v=1780171883879" group-title="挪超",腓特烈斯塔vs利勒斯特罗姆-45(线路1)
 https://live.666666.zip/live/4467565.m3u8
 
@@ -366,6 +360,12 @@ https://live.666666.zip/live/4564363.m3u8
 #EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1004.jpg?v=1780171883879" group-title="俄甲",乌里扬诺夫斯克伏尔加vs叶尼塞-4(线路2)
 https://pul-tenm.gkykp.com/live/sd-1-4564363.m3u8?txSecret=b9cf7fbe0ce9350a57cad8790712bd66&txTime=6A539571
 
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1005.jpg?v=1780171883879" group-title="白俄超",巴兰诺域治vs若基诺鱼雷-5(线路1)
+https://live.666666.zip/live/4502864.m3u8
+
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1005.jpg?v=1780171883879" group-title="白俄超",巴兰诺域治vs若基诺鱼雷-5(线路2)
+https://pul-tenm.gkykp.com/live/sd-1-4502864.m3u8?txSecret=00429e6b350387b3d9fec4761c9b57c0&txTime=6A539571
+
 #EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1009.jpg?v=1780171883879" group-title="乌拉甲",尤文提度vs蒙得维的亚城图尔克-9(线路1)
 https://live.666666.zip/live/4569866.m3u8
 
@@ -383,12 +383,6 @@ https://live.666666.zip/live/4512920.m3u8
 
 #EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1033.jpg?v=1780171883879" group-title="中乙",广东铭途vs深圳二零二八-33(线路2)
 https://pul-tenm.gkykp.com/live/sd-1-4512920.m3u8?txSecret=3f764daebc7e82968aef3c829b1560a8&txTime=6A539571
-
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1034.jpg?v=1780171883879" group-title="中甲",广州豹vs石家庄功夫-34(线路1)
-https://live.666666.zip/live/4505277.m3u8
-
-#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1034.jpg?v=1780171883879" group-title="中甲",广州豹vs石家庄功夫-34(线路2)
-https://pul-tenm.gkykp.com/live/sd-1-4505277.m3u8?txSecret=f91bae06981af820bb92eebd90d1f928&txTime=6A539571
 
 #EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1037.jpg?v=1780171883879" group-title="川超",南充队vs宜宾队-37(线路1)
 https://live.666666.zip/live/4509993.m3u8
@@ -443,3 +437,9 @@ https://live.666666.zip/live/3923828.m3u8
 
 #EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1054.jpg?v=1780171883879" group-title="女欧U20 B",阿塞拜疆女篮U20vs罗马尼亚女篮U20-54(线路2)
 https://pul-tenm.gkykp.com/live/sd-2-3923828.m3u8?txSecret=c958ee1d10f6f5628987f4ba5bcc7574&txTime=6A539571
+
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1055.jpg?v=1780171883879" group-title="女欧U20 B",保加利亚女篮U20vs爱尔兰女篮U20-55(线路1)
+https://live.666666.zip/live/3924227.m3u8
+
+#EXTINF:-1 tvg-logo="https://kafeizhibo.com/static/screenshots/1055.jpg?v=1780171883879" group-title="女欧U20 B",保加利亚女篮U20vs爱尔兰女篮U20-55(线路2)
+https://pul-tenm.gkykp.com/live/sd-2-3924227.m3u8?txSecret=807c508db3b60a0885ebdda98e6c2205&txTime=6A539571
